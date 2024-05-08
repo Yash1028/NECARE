@@ -1,9 +1,11 @@
 # NECARE
 NEtwork-based CAncer PPI pREdiction
 
-NECARE is a network-based algrithom which use Relational Graph Convolutional Network (R-GCN) to predict protein-protein inetraction in cancer
+NECARE is a network-based algrithom which use Relational Graph Convolutional Network (R-GCN) to predict protein-protein inetraction in cancer.
 
-The feature NECARE used include:1) knowledge-based feature OPA2Vec;                                                                                                         2)cancer specific feature which means mutation and expression profile of each gene from TCGA
+The feature NECARE used include:
+1) knowledge-based feature OPA2Vec;
+2) cancer specific feature which means mutation and expression profile of each gene from TCGA
                                 
 The ouput is binary (1 or 0) and directional.
 
@@ -22,7 +24,7 @@ numpy=1.16.5
 
 dgl-cu101=0.4.1
 
-To be eaier, you can also simply apply my conda environment by :
+To be easier, you can also simply apply my conda environment by :
 
 conda create  --name necare --file requirements.txt
 
